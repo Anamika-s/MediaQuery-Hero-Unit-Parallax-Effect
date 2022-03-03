@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section-1
+{
+    width: 100%;
+    height: 100vh;
+background:url("/images/pexels-евгения-егорова-9049079.jpg") no-repeat;
+background-size: cover;
+background-attachment: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rga(0,0,0,.7);
+background-blend-mode: overlay;
+
+}
+.section-2
+{
+    width: 100%;
+    height: 100vh;
+background:url("/images/pexels-niklas-jeromin-10540135.jpg") no-repeat;
+background-size: cover;
+background-attachment: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rga(0,0,0,.7);
+background-blend-mode: overlay;
+
+}
+
+.section-3
+{
+    width: 100%;
+    height: 100vh;
+background:url("/images/pexels-евгения-егорова-9049079.jpg") no-repeat;
+background-size: cover;
+background-attachment: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rga(0,0,0,.7);
+background-blend-mode: overlay;
+
+}
+.common h1{
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.common h1::first-letter
+{
+    font-size: 80px;
+    color:  red;
+    font-weight: bold;
+}
+
+
+.count
+{
+    display:  block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: white;
+    color:royalblue;
+}
+.common
+{
+    color: white;
+    width:50%;
+}
